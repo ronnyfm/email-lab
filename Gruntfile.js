@@ -186,6 +186,14 @@ module.exports = function(grunt) {
     'watch'
   ]);
 
+  grunt.registerTask('jenkins', [
+    'clean',
+    'copy:dev',
+    'assemble',
+    'sass:dev',
+    'connect:livereload'
+  ]);
+    
   grunt.registerTask('build', [
     'clean',
     'assemble',
