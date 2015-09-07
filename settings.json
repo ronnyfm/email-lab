@@ -1,0 +1,17 @@
+{
+  "from": "Sam Spade <sam@spade.org>",
+  "defaultTo": {
+    "name": "ronnyfm",
+    "email": "ronnyfm@live.com"
+  },
+  "transport": {
+    "type": "SMTP",
+    "options": {
+      "service": "Gmail",
+      "auth": {
+        "user": "test@gmail.com",
+        "pass": "password123"
+      }
+    }
+  }
+}
